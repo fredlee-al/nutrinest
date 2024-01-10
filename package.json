@@ -1,7 +1,7 @@
 {
   "name": "nutrinest",
   "version": "1.0.0",
-  "description": nil,
+  "description": https://nutrinest-reckon.netlify.app/,
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
