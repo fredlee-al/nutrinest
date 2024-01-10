@@ -1,7 +1,7 @@
 {
   "name": "nutrinest",
   "version": "1.0.0",
-  "description": "### Live Demo [https://gonative.io/share/xyrpwn](https://gonative.io/share/xyrpwn)",
+  "description": nil,
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
