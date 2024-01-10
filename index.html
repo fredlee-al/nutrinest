@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>NutriNest</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/png" href="favicon.png">
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<div class="content">
+						<h1>NutriNest</h1>
+						<h2>Food Manager App</h2>
+						<a href="#" class="button big alt"><span>check it out!</span></a>
+					</div>
+					<a href="#" class="button hidden"><span>check it out!</span></a>
+				</div>
+			</header>
+
+		<!-- Main -->
+		<div id="preview">
+			<div class="inner">
+				<div class="content">
+					<header>
+						<h2>NutriNest</h2>
+					</header>
+					<p>Login</p>
+					<form action="menu.html" method="post">
+						<input type="text" label="Email" name="email" placeholder="Email" required /><br />
+						<input type="password" label="Password" name="password" placeholder="Password"/><br />
+						<select name="usertype" id="usertype" required>
+							<option value="">-- User Type --</option>
+							<option value="1">Student</option>
+							<option value="2">Admin</option>
+						</select><br />
+					<input type="button" name="dopost" value="Login" onclick="if ($('#usertype option:selected').text() === 'Admin'){location.href='admin.html'}else{location.href='menu.html'}" />
+					</form>
+				</div>
+			</div>
+		</div>
+			
+		<!-- Footer -->
+			<footer id="footer">
+				<a href="#" class="info fa fa-info-circle"><span>About</span></a>
+				<div class="inner">
+					<div class="content">
+						<h3>About NutriNest</h3>
+						<p>Food wastage is a pervasive issue, and we've identified a common real-world problem faced by students: hostel mess food wastage. NutriNest aims to address and solve this problem.</p>
+					</div>
+					<div class="copyright">
+						<h3>Socials</h3>
+						<ul class="icons">
+							<li><a href="https://twitter" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+							<li><a href="https://github" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+							<li><a href="https://instagram" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+							<li><a href="https://linkedin" class="icon fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+						</ul>
+						<span>Made at Reckon 5.0 <span></span> by <a href="https://fred-portfolio.netlify.app/" target="_blank">Fred Lee</a></span>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

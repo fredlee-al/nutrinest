@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>NutriNest</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/png" href="favicon.png">
+	</head>
+	<body>
+
+
+		<!-- Main -->
+			<div id="preview">
+				<div class="inner">
+					<div class="content">
+						<header>
+							<h2>NutriNest Admin</h2>
+						</header>
+						<p>Admin Panel</p>
+						<form action="admin.html" method="post">
+							<select name="hostel" required>
+								<option value="">-- Select Hostel --</option>
+								<option value="1">Hostel A</option>
+								<option value="2">Hostel B</option>
+								<option value="3">Hostel C</option>
+								<option value="4">Hostel D</option>
+								<option value="5">Hostel E</option>
+								<option value="6">Hostel F</option>
+								<option value="7">Hostel G</option>
+								<option value="8">Hostel H</option>
+								<option value="9">Hostel I</option>
+								<option value="10">Hostel J</option>
+								<option value="11">Hostel K</option>
+								<option value="12">Hostel L</option>
+								<option value="13">Hostel M</option>
+								<option value="14">Hostel N</option>
+								<option value="15">PG 1</option>
+							</select><br />
+							<input type="date" name="date" id="today" /><br />
+							<input type="button" name="dopost" value="View Records" onclick="location.href='#'" />
+						</form><br />
+						<p>Meals Skipped</p>
+						<div style="overflow-x:auto;">
+						<table class="table-wrapper">
+							<tr>
+								<th>Breakfast</th>
+								<td>5</td>
+							</tr>
+							<tr>
+								<th>Lunch</th>
+								<td>3</td>
+							</tr>
+							<tr>
+								<th>Dinner</th>
+								<td>1</td>
+							</tr>
+						</table>
+						</div>
+						<input type="button" value="Download XLSX" onclick="location.href='record.xlsx'">
+					</div>
+				</div>
+			</div>
+			
+		<!-- Footer -->
+			<footer id="footer">
+				<a href="#" class="info fa fa-info-circle"><span>About</span></a>
+				<div class="inner">
+					<div class="content">
+						<h3>About NutriNest</h3>
+						<p>Food wastage is a pervasive issue, and we've identified a common real-world problem faced by students: hostel mess food wastage. NutriNest aims to address and solve this problem.</p>
+					</div>
+					<div class="copyright">
+						<h3>Socials</h3>
+						<ul class="icons">
+							<li><a href="https://twitter.com" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+							<li><a href="https://github.com" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+							<li><a href="https://instagram.com" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+							<li><a href="https://linkedin.com" class="icon fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+						</ul>
+						<span>Made at Reckon 5.0 <span></span> by <a href="https://fred-portfolio.netlify.app/" target="_blank">Fred Lee</a></span>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

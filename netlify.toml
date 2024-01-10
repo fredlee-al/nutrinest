@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to ="/notes.html"
+status = 200
