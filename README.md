@@ -1,7 +1,4 @@
-# Canape - Mess Management System
+# NutriNest - Food Manager App
 
-### Live Demo
-[https://gonative.io/share/xyrpwn](https://gonative.io/share/xyrpwn)
-
-### Download APK
-[https://gonativeio.s3.amazonaws.com/static/5fc0d3f4ecf54403104106fb/app-release.apk](https://gonativeio.s3.amazonaws.com/static/5fc0d3f4ecf54403104106fb/app-release.apk)
+### Live Site
+(https://nutrinest-reckon.netlify.app/)
